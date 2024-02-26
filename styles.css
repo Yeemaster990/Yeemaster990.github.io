@@ -2,9 +2,31 @@
 
 html{
     font-family: 'Gloock', serif;
-    background: rgb(253, 254, 246);
+    background: rgb(166, 179, 203);
 }
 
 .container {
     text-align: center;
   }
+
+.dot {
+height: 400px;
+width: 400px;
+background-color: #0c3751;
+border-radius: 50%;
+display: inline-block;
+left:200px;
+top:200px
+}
+
+.circular--portrait {
+position: relative; 
+width: 370px; 
+height: 370px; 
+overflow: hidden; 
+border-radius: 50%; 
+left:507.5px;
+top:-388px
+} 
+
+.circular--portrait img { width: 100%; height: auto; margin-left:10px; margin-top: -90px;}
