@@ -2,13 +2,31 @@
 
 html{
     font-family: 'Gloock', serif;
-    background: rgb(166, 179, 203);
+    background: rgb(255, 255, 255);
 }
 
 .container {
-    text-align: center;
-    
+  margin-top: -180px;
+  text-align: right;
   }
+
+.col-2{
+  display: block;
+  margin-left:-907px;
+  margin-top:40px;
+  flex-direction: column;
+  width:800px;
+  align-items: left;
+}
+
+.col-3{
+  display: block;
+  margin-left:-590px;
+  margin-top: -215px;
+  flex-direction: column;
+  align-items: left;
+  width:348px;
+}
 
 .dot {
 height: 400px;
@@ -20,39 +38,16 @@ left:200px;
 top:200px
 }
 
-.slide:hover,
-.slide:focus {
-  box-shadow: inset 6.5em 0 0 0 var(--hover);
-}
-
-button {  
-  color: var(--color);
-  transition: 0.25s;
-  
-  &:hover,
-  &:focus { 
-    border-color: var(--hover);
-    color: #ffa260;
-  }
-}
-
-button {
-  background: none;
-  border: 2px solid;
-  font: inherit;
-  line-height: 1;
-  margin: 0.5em;
-  padding: 1em 2em;
-}
-
 .circular--portrait {
 position: relative; 
-width: 370px; 
-height: 370px; 
+width: 300px; 
+height: 300px; 
 overflow: hidden; 
 border-radius: 50%; 
 left:50px;
-top:-58px
+top:-20px;
+margin-top:140px;
+margin-left:-980px
 } 
 
 .circular--portrait img { width: 100%; height: auto; margin-left:0px; margin-top: -90px;}
@@ -68,8 +63,8 @@ h1:hover::before {
 }
 
 h1::before {
-  content: " ";
-  display: block;
+  content: "";
+  display:inline-block;
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   inset: 0 0 0 0;
@@ -92,7 +87,7 @@ body {
   min-block-size: 100%;
   min-inline-size: 100%;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
   display: grid;
   place-content: center;
   font-family: system-ui, sans-serif;
@@ -103,3 +98,90 @@ body {
     grid-auto-flow: column;
   }
 }
+
+h1{
+  margin-top:50px;
+  left:-65px
+}
+h2{
+  padding: 10px 10px;
+  margin-top: -10px;
+  margin-left: -920px;
+  height:40px;
+  width:220px;
+}
+
+h2::before {  
+  transform: scaleX(0);
+  transform-origin: 200%;
+}
+
+h2:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h2::before {
+  content: "";
+  display:inline-block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(297, 100%, 81%);
+  z-index: -1;
+  transition: transform .3s ease;
+  height:60px;
+  width:230px;
+}
+
+h2 {
+  position: relative;
+  font-size: 2rem;
+  height:130px;
+  width: 850px;
+}
+
+.border-box{
+  margin: 100% 15%;
+}
+
+
+
+
+h3{
+  padding: 10px 10px;
+  margin-top: 140px;
+  margin-left: -600px;
+  height:200px;
+}
+
+h3::before {  
+  transform: scaleX(0);
+  transform-origin: 120%;
+}
+
+h3:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h3::before {
+  content: "";
+  display:inline-block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(53, 85%, 72%);
+  z-index: -1;
+  transition: transform .3s ease;
+  height:60px;
+  width:360px;
+}
+
+h3 {
+  position: relative;
+  font-size: 2rem;
+  height:230px;
+  width: 370px;
+}
+
