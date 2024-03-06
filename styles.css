@@ -206,6 +206,7 @@ h4{
   padding: 10px 10px;
   margin-top: 140px;
   margin-left: 103px;
+  height: 400px;
 }
 
 h4::before {  
@@ -260,7 +261,7 @@ h4 {
   overflow: hidden;
   width: 455px;
   height:0;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 
 .container:hover .overlay {
@@ -281,3 +282,8 @@ h4 {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+
+
+
+
