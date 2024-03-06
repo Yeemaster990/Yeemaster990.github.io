@@ -10,4 +10,5 @@ My personal site.
 
 - [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - center content and create structure to the site
 - [Box Animations]https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
-- [Hover]https://codepen.io/argyleink/pen/poEjvpd
+- [Hover Text]https://codepen.io/argyleink/pen/poEjvpd
+- [Hover Image] https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slidetop
